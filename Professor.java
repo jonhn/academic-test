@@ -1,7 +1,8 @@
+/** Classe Professor */
 public class Professor extends Pessoa{
-
+	//Atributos
 	private String departamento;
-	
+	//Métodos
 	public Professor(String departamento){
 		this.departamento = departamento;
 	}

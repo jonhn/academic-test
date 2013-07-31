@@ -1,7 +1,12 @@
+/** Classe Aluno */
+
 public class Aluno extends Pessoa{
+
+	//Atributos
 	private String matricula;
 	private Curso curso;
 
+	//Métodos
 	public Aluno(Srtring matricula){
 		this.matricula = matricula;
 		this.curso = curso;
@@ -18,7 +23,3 @@ public class Aluno extends Pessoa{
         public void setCurso(Curso curso){
                 this.curso = curso;
         }
-
-
-
-}
