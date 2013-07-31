@@ -1,4 +1,4 @@
-class Telefone {
+public class Telefone {
 	int codPais;
 	int codRegiao;
 	int numero;
