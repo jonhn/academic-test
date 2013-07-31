@@ -7,8 +7,8 @@ public abstract class Pessoa
 	//Declaração de atributos da classe	
 	private String nome;
 	private String sobrenome;
-	private String endereco;
-	private String telefone;
+	private Endereco endereco;
+	private Telefone telefone;
 	private String email;
 	
 	//Métodos de acesso
