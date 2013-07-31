@@ -48,12 +48,12 @@ public abstract class Pessoa
 		this.sobrenome = sobrenome;
 	}	
 	
-	public void setEndereco(String endereco)
+	public void setEndereco(Endereco endereco)
 	{
 		this.endereco = endereco;
 	}
 	
-	public void setTelefone(String telefone)
+	public void setTelefone(Telefone telefone)
 	{
 		this.telefone = telefone;
 	}
