@@ -11,6 +11,16 @@ public abstract class Pessoa
 	private Telefone telefone;
 	private String email;
 	
+	//Construtor da classe
+	public Pessoa(String nome, String sobrenome, Endereco endereco, Telefone telefone, String email)
+	{
+		this.nome = nome;
+		this.sobrenome = sobrenome;
+		this.endereco = endereco;
+		this.telefone = telefone;
+		this.email = email;	
+	}
+	
 	//Métodos de acesso
 	public String getNome()
 	{
