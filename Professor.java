@@ -9,7 +9,7 @@ public class Professor extends Pessoa{
 	public String getDepartamento(){
 		return this.departamento;
 	}
-	publci void setDepartamento(String departamento){
+	public void setDepartamento(String departamento){
 		this.departamento = departamento;
 	}
 }
